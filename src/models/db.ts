@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 const connectDB = async () => {
   try {
-    await mongoose.connect('mongodb://localhost:27017/mydatabase', {
+    await mongoose.connect('mongodb://localhost:27017/maheshdb', {
       //   useNewUrlParser: true,
       //   useUnifiedTopology: true
     });
