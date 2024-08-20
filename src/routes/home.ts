@@ -3,7 +3,7 @@ import { Request, Response, Router } from 'express';
 const router = Router();
 
 router.get('/', (req: Request, res: Response) => {
-  res.send('Welcome to the Home Route! updated');
+  res.send('Welcome to the Home Route! updated 22');
 });
 
 export default router;
